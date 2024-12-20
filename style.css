@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(178, 191, 191);
+}
+
+
+.wedding img {
+    height: 675px;
+    width: 100vw;
+    margin-bottom: 10px;
+}
+
+
+#hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 10px;
+    margin-left: -5px;
+    height: 263px;
+    width: 334px;
+    background-image: url(wed.png);
+    background-size: cover;
+    border-radius: 20px;
+    background-position: center;
+    border: 2px solid #aacf15;
+}
+
+#hero h1 {
+    font-family: cursive;
+}
+
+#hero p {
+    padding-left: 14px;
+    padding-top: 5px;
+    margin-top: 10px;
+    border-radius: 23px;
+    height: 161px;
+    width: 318px;
+    background-color: #f5efef42;
+    font-family: cursive;
+    font-size: medium;
+}
+
+
+#hero .div {
+    height: 2px;
+    width: 83%;
+    background-color: black;
+
+}
+
+
+#location {
+    height: 56vh;
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#location iframe{
+    height: 269px;
+    width: 251px;
+    margin-top: 9px;
+    margin-left: -16px;
+    border-radius: 7px;
+}
+.btn button{
+    width: 260px;
+    height: 39px;
+    margin-top: 11px;
+    border-radius: 31px;
+    font-size: 18px;
+    font-family: cursive;
+    background: #0b0bdf;
+}
